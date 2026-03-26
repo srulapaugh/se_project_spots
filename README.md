@@ -1,21 +1,18 @@
 # Project 3: Spots
 
-### Overview  
+### Programs Used
 
-* Intro  
-* Figma  
-* Images  
-  
+- VS Code
+- Figma
+- Triple Ten Website
+
 **Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+
+This project contains the works of different photographers and displays their unique photo submissions. This website can be utilized via the web or adjust to your hand held devices screen size. The design specs were followed from the Figma requirements to create a visually pleasing and organized web page. Future improvements would be to include more interactivity through the site for users and improve web design and make the application more streamlined for user enjoyment.
+
+**Video Submission Link**
+Check out this video, https://drive.google.com/file/d/17896mjjwjfSV6LDgpKfLKfW6qgaG8l7_/view?usp=drive_link, where I describe my project and some challenges I faced while building it!
+
+- **Git Hub Link**
+
+https://srulapaugh.github.io/se_project_spots/
