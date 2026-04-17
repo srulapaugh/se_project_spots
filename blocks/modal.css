@@ -41,6 +41,7 @@
   justify-content: center;
   border: none;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .modal__close-btn:hover {
