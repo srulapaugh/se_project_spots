@@ -10,9 +10,14 @@
   align-items: center;
   padding: 10px;
   visibility: hidden;
+  opacity: 0;
+  transition:
+    opacity 0.5s ease,
+    visibility 0.5s ease;
 }
 
 .modal_is-opened {
+  opacity: 1;
   visibility: visible;
 }
 
