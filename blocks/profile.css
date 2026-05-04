@@ -55,7 +55,7 @@
   color: #212121;
   font-weight: 500;
   font-size: 16px;
-  opacity: 70%;
+  opacity: 0.7;
   border: none;
   display: flex;
   justify-content: flex-start;
@@ -83,7 +83,7 @@
 }
 
 .profile__add-btn:hover {
-  opacity: 70%;
+  opacity: 0.7;
   cursor: pointer;
 }
 

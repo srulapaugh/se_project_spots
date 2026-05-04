@@ -112,6 +112,7 @@
                 type="url"
                 class="modal__input"
                 placeholder="Paste a link to the picture"
+                required
               />
             </label>
             <label for="image-caption-input" class="modal__label">
@@ -121,6 +122,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your caption"
+                required
               />
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
@@ -131,7 +133,7 @@
         <div class="modal__image-container">
           <button
             type="button"
-            class="modal__close-btn modal_close_type_preview"
+            class="modal__close-btn modal_close-btn_type_preview"
           >
             <img
               src="./images/imagecloseicon.png"
@@ -140,7 +142,7 @@
             />
           </button>
           <img src="#" alt="" class="modal__image" />
-          <p class="modal__caption">Golden Gate Bridge</p>
+          <p class="modal__caption"></p>
         </div>
       </div>
     </div>

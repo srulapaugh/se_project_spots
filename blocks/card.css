@@ -9,6 +9,15 @@
   display: block;
   border-radius: 8px;
   margin-bottom: 12px;
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.card__image:hover {
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
 }
 
 .card__content {
@@ -53,6 +62,8 @@
   border: none;
   background-color: transparent;
   opacity: 0.4;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card__like-btn_active {
@@ -71,5 +82,9 @@
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__title {
+    width: 320px;
   }
 }

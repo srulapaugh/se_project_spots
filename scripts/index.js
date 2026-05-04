@@ -80,7 +80,7 @@ function getCardElement(data) {
 
   cardImageEl.addEventListener("click", () => {
     previewImageEl.src = data.link;
-    previewImageEl.name = data.name;
+    previewImageEl.alt = data.name;
     previewImageCaption.textContent = data.name;
 
     openModal(previewModal);
@@ -136,12 +136,11 @@ newPostForm.addEventListener("submit", function (evt) {
     link: newPostLink.value,
   };
 
-  console.log(newPostCaption.value);
-  console.log(newPostLink.value);
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
+  evt.target.removeEventListener();
 
-  newPostModal.classList.remove("modal_is-opened");
+  closeModal(newPostModal);
 });
 
 initialCards.forEach(function (item) {
