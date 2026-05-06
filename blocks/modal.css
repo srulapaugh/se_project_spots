@@ -90,7 +90,7 @@
   width: 100%;
   box-sizing: border-box;
   border-radius: 8px;
-  border-color: #21212166;
+  border: 1px solid rgba(33, 33, 33, 0.4);
   padding: 16px 12px;
   font-family: "Poppins", "Arial", "Helvetica", sans-serif;
   font-weight: 500;
@@ -106,6 +106,7 @@
   background-color: #212121;
   padding: 18px 32px;
   border-radius: 8px;
+  border: none;
   font-family: "Poppins", "Arial", "Helvetica", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -157,6 +158,14 @@
 }
 
 @media screen and (max-width: 627px) {
+  .modal__close-btn {
+    top: 10px;
+    right: 10px;
+  }
+  .modal__submit-btn {
+    max-width: unset;
+    width: 100%;
+  }
   .modal_close-btn_type_preview {
     top: -48px;
     right: 0px;

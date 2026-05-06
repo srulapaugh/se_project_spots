@@ -70,7 +70,6 @@ function getCardElement(data) {
   const cardLikeBtnEl = cardElement.querySelector(".card__like-btn");
   cardLikeBtnEl.addEventListener("click", () => {
     cardLikeBtnEl.classList.toggle("card__like-btn_active");
-    console.log(cardLikeBtnEl.classList);
   });
 
   const cardDeleteBtnEl = cardElement.querySelector(".card__delete-btn");
@@ -138,7 +137,7 @@ newPostForm.addEventListener("submit", function (evt) {
 
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
-  evt.target.removeEventListener();
+  evt.target.reset();
 
   closeModal(newPostModal);
 });
