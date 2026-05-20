@@ -132,7 +132,7 @@
   opacity: 0.8;
 }
 
-.modal_submit-btn_disabled:disabled {
+.modal__submit-btn_disabled:disabled {
   background-color: #212121;
   opacity: 0.5;
   color: white;
