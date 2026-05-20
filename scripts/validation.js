@@ -9,14 +9,20 @@ const settings = {
 
 const showInputError = (formEl, inputElement, errorMsg, config) => {
   const errorMsgEl = formEl.querySelector(`#${inputElement.id}-error`);
+
   errorMsgEl.textContent = errorMsg;
+
   inputElement.classList.add(config.inputErrorClass);
+  errorMsgEl.classList.add(config.errorClass);
 };
 
 const hideInputError = (formEl, inputElement, config) => {
   const errorMsgEl = formEl.querySelector(`#${inputElement.id}-error`);
+
   errorMsgEl.textContent = "";
+
   inputElement.classList.remove(config.inputErrorClass);
+  errorMsgEl.classList.remove(config.errorClass);
 };
 
 const checkInputValidity = (formEl, inputElement, config) => {
