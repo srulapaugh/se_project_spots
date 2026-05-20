@@ -51,12 +51,12 @@
   background-color: transparent;
 }
 
-.modal_close-btn_type_preview {
+.modal__close-btn_type_preview {
   top: 0;
   right: -52.5px;
 }
 
-.modal_close-btn_type_preview:hover {
+.modal__close-btn_type_preview:hover {
   opacity: 0.4;
 }
 
@@ -190,7 +190,7 @@
     max-width: unset;
     width: 100%;
   }
-  .modal_close-btn_type_preview {
+  .modal__close-btn_type_preview {
     top: -48px;
     right: 0px;
   }
